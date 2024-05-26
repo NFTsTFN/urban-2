@@ -1,0 +1,43 @@
+.scroll-page {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	width: 100%;
+	min-height: 100vh; /* Устанавливаем минимальную высоту на всю высоту экрана */
+	padding: 20px;
+	overflow-y: auto; /* Включаем вертикальную прокрутку */
+}
+
+.card-columns {
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	gap: 20px;
+	width: 100%;
+	margin-bottom: 20px;
+}
+
+.card {
+	background-color: #f8f9fa;
+	padding: 15px;
+	border-radius: 5px;
+	text-align: center;
+	box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.stars {
+	margin: 5px 0;
+	color: gold;
+}
+
+.next-page-btn {
+	padding: 10px 20px;
+	border: none;
+	border-radius: 5px;
+	background-color: #007bff;
+	color: white;
+	cursor: pointer;
+}
+
+.next-page-btn:hover {
+	background-color: #0056b3;
+}
